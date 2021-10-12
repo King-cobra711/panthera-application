@@ -59,7 +59,7 @@ img{
     fill: #FFFFFF;
 }
 /* dark header*/
-.custom-shape-divider-bottom-1634044308 {
+.custom-shape-divider-bottom-1634048437 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -69,15 +69,15 @@ img{
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1634044308 svg {
+.custom-shape-divider-bottom-1634048437 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 150px;
 }
 
-.custom-shape-divider-bottom-1634044308 .shape-fill {
-    fill: #000000B3;
+.custom-shape-divider-bottom-1634048437 .shape-fill {
+    fill: #000000;
 }
 
 /* footer divider styles */
@@ -119,7 +119,7 @@ img{
 }
 
 .custom-shape-divider-top-dark .shape-fill {
-    fill: #000000;
+    fill: black;
 }
 `;
 

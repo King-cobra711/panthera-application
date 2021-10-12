@@ -91,7 +91,7 @@ export default function Header({ theme, setTheme }) {
       ) : (
         <div
           style={{ position: "relative" }}
-          class="custom-shape-divider-bottom-1634044308"
+          class="custom-shape-divider-bottom-1634048437"
         >
           <svg
             data-name="Layer 1"
