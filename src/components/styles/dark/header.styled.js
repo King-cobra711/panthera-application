@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const StyledHeader = styled.header`
   background-color: ${({ theme }) => theme.colors.header};
   padding-top: 40px;
-  color: ${({ theme }) => theme.colors.text};
 `;
 
 export const Nav = styled.nav`

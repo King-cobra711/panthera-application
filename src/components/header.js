@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { StyledHeader } from "./styles/header.styled";
 import { Container } from "./styles/container.styled";
 import { Nav } from "./styles/header.styled";
@@ -7,13 +7,28 @@ import { Button } from "./styles/button.styled";
 import { Flex } from "./styles/flex.styled";
 import { Image } from "./styles/header.styled";
 
-export default function Header() {
+export default function Header({ theme, setTheme }) {
+  const changeThemeHandler = () => {
+    console.log(theme);
+    if (theme === "light") {
+      setTheme("dark");
+    } else if (theme === "dark") {
+      setTheme("light");
+    }
+  };
   return (
     <StyledHeader>
       <Container>
         <Nav>
-          <Logo src="./images/panthera.png" alt="logo" />
-          <Button>Light / Dark</Button>
+          <Logo
+            src={
+              theme === "light"
+                ? "./images/panthera.png"
+                : "./images/panthera-dark.png"
+            }
+            alt="logo"
+          />
+          <Button onClick={() => changeThemeHandler()}>Light / Dark</Button>
         </Nav>
         <Flex>
           <h1>
