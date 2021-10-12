@@ -14,7 +14,7 @@ const light = {
     text: "black",
     body: "#fff",
     footer: "#015064",
-    button: "#015064",
+    button: "rgb(102, 102, 102)",
     buttonText: "#fff",
   },
   mobile: "768px",
@@ -23,8 +23,10 @@ const dark = {
   colors: {
     header: "#015064",
     text: "white",
-    body: "#000",
-    footer: "#015064",
+    body: "black",
+    footer: "#002933",
+    background: "#002933",
+    link: "aqua",
   },
   mobile: "768px",
 };
@@ -43,7 +45,7 @@ function App() {
           })}
           <HireCard />
         </Container>
-        <Footer />
+        <Footer theme={theme} />
       </>
     </ThemeProvider>
   );
