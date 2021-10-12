@@ -1,4 +1,4 @@
-# Panthera Finince Challenge
+# Panthera Finance Challenge
 
 ## Description
 
