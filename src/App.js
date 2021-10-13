@@ -25,6 +25,7 @@ const dark = {
     text: "white",
     body: "black",
     footer: "#002933",
+    button: "#fff",
     background: "#002933",
     link: "aqua",
   },
