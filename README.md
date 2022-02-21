@@ -2,7 +2,7 @@
 
 ## Description
 
-This application was made in response to Panthera Finance's job advertisement challenge. Origional codepen [HERE](https://codepen.io/pantherafinance/pen/bGqPzwM).
+This application was made in response to Panthera Finance's job advertisement challenge. Original codepen [HERE](https://codepen.io/pantherafinance/pen/bGqPzwM).
 
 This application is hosted here: [https://king-cobra711.github.io/panthera-application/](https://king-cobra711.github.io/panthera-application/)
 
